@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .calc-ui {
+        outline: 1px black solid;
+
+        height: 600px;
+        width: 400px;
+    }
+
+        .display {
+            /*border: 5px blue solid;*/
+
+            height: 25%;
+            width: 100%;
+        }
+
+        .buttons {
+            /*border: 5px red solid;*/
+
+            display: flex;
+
+            height: 80%;
+            width: 100%;
+        }
+
+            .main-grid {
+                border: 1px blue solid;
+
+                display: flex;
+                flex-direction: column;
+
+                height: 100%;
+                width: 75%;
+            }
+
+                .top-row {
+                    border: 3px solid orange;
+
+                    display: flex;
+
+                    justify-content: center;
+                    align-items: center;
+
+                    height: 20%;
+                    width: 100%;
+                }
+
+                    .clear, .sign, .percent {
+                        border: 1px solid blue;
+                        border-radius: 50%;
+                        box-shadow: 2px 2px 0px blue;
+                        
+                        display: flex;
+
+                        justify-content: center;
+                        align-items: center;
+
+                        height: 70px;
+                        width: 70px;
+
+                        margin-left: 15px;
+                        margin-right: 15px;
+                
+                    }
+
+                    .percent {
+                        margin-right: 7.5px;
+                    }
+
+                .number-grid {
+                    border: 3px solid purple;
+
+                    height: 80%;
+                    width: 100%;
+                }
+            
+            .op-grid {
+                border: 3px green solid;
+
+                display: flex;
+                flex-direction: column;
+
+                height: 100%;
+                width: 25%;
+            }
+
